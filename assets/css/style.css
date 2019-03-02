@@ -1,0 +1,94 @@
+header{
+    border: solid gray 2px;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 30px;
+    
+}
+h1{
+  background: -webkit-linear-gradient(red, ORANGE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+#title{
+    font-size: 4.5rem;
+}
+
+
+body, html{
+    font-family: 'Permanent Marker', cursive;   
+    height: 100%;
+    margin: 0;
+    color: red;
+ 
+    
+
+}
+
+.bg{
+    width: 100%;
+    background-image: linear-gradient(to bottom left, black, #006400, black);
+  
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+  background: -webkit-linear-gradient(red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#game{
+    
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+   
+ color: white;
+}
+
+.row   {
+    text-align: center;
+    overflow: auto;
+
+}
+
+
+
+#instructions{
+    border-right: 10px dotted #000;
+    border-width: thin;
+    border-collapse: separate;
+}
+
+.container{
+    
+    border-bottom-right-radius: 50px 20px;
+
+
+}
+
+
+
+#crystBox{
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  width: 75%;
+
+    border: 2px black solid;
+}
+
+.crystalImg{
+    padding-left: 5%;
+}
